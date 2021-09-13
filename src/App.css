@@ -2,37 +2,111 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  background: #498cec;
+  border: 1px solid #979797;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.degrees {
+  position: absolute;
+  height: 22px;
+  left: 87.63%;
+  right: 11.79%;
+  top: calc(50%-22px / 2-416px);
+  width: 77px;
+  height: 29px;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
+.degrees_c {
+  /* position: absolute;
+  height: 22px;
+  left: 87.63%;
+  right: 11.79%;
+  top: calc(50%-22px / 2-416px); */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-size: 18px;
+  line-height: 22px;
+  background: rgba(255, 255, 255, 0.2);
+  /* identical to box height */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+.degrees_f {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* background: rgba(255, 255, 255, 0.2); */
+  /* identical to box height */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+.weather__mainblock {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.weather__temp {
+  /* position: absolute;
+  height: 208px;
+  left: 101px;
+  right: 75px;
+  top: calc(50% - 208px / 2 - 52px); */
+
+  font-size: 180px;
+  line-height: 216px;
+  text-align: center;
+}
+.weather__temp-box {
+  display: flex;
+  flex-direction: row;
+}
+.weather__description {
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.footer__title {
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer__value {
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
 }
