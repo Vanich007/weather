@@ -49,7 +49,7 @@ body {
   margin-left: 29px;
   min-width: 30px;
   min-height: 30px;
-  background-image: url("http://localhost:3000/weather/location.png");
+  background-image: url("/weather/weather/location.png");
   background-repeat: no-repeat;
   background-position: top 10px;
   cursor: pointer;
@@ -200,19 +200,19 @@ footer {
 }
 
 .rain {
-  background-image: url("http://localhost:3000/weather/rain.png");
+  background-image: url("/weather/weather/rain.png");
 }
 .sun {
-  background-image: url("http://localhost:3000/weather/sun.png");
+  background-image: url("/weather/weather/sun.png");
 }
 .partly_cloudy {
-  background-image: url("http://localhost:3000/weather/partly_cloudy.png");
+  background-image: url("/weather/weather/partly_cloudy.png");
 }
 .cloud {
-  background-image: url("http://localhost:3000/weather/cloud.png");
+  background-image: url("/weather/weather/cloud.png");
 }
 .storm {
-  background-image: url("http://localhost:3000/weather/storm.png");
+  background-image: url("/weather/weather/storm.png");
 }
 @media (max-width: 992px) {
   .city {
