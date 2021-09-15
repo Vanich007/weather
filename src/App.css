@@ -14,7 +14,6 @@ body {
 .wrapper {
   position: relative;
   /* width: 1366px; */
-  height: 100vh;
 
   border: 1px solid #979797;
 }
@@ -245,7 +244,7 @@ footer {
     font-size: 120px;
     line-height: 155px;
     /* top: 20%; */
-    left: 12.27%;
+    left: 13%;
     height: 220px;
     font-family: "PT Sans", sans-serif;
   }
@@ -298,7 +297,7 @@ footer {
   #footer__item3 {
     position: absolute;
     top: 101px;
-    left: 6%;
+    left: 20px;
   }
   #footer__item4 {
     position: absolute;
