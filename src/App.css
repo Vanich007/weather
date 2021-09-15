@@ -49,7 +49,8 @@ body {
   margin-left: 29px;
   min-width: 30px;
   min-height: 30px;
-  background-image: url("/weather/weather/location.png");
+
+  background-image: url("https://weatherinformeriremezov.herokuapp.com/weather/location.png");
   background-repeat: no-repeat;
   background-position: top 10px;
   cursor: pointer;
@@ -200,19 +201,19 @@ footer {
 }
 
 .rain {
-  background-image: url("/weather/weather/rain.png");
+  background-image: url("https://weatherinformeriremezov.herokuapp.com/weather/rain.png");
 }
 .sun {
-  background-image: url("/weather/weather/sun.png");
+  background-image: url("https://weatherinformeriremezov.herokuapp.com/weather/sun.png");
 }
 .partly_cloudy {
-  background-image: url("/weather/weather/partly_cloudy.png");
+  background-image: url("https://weatherinformeriremezov.herokuapp.com/weather/partly_cloudy.png");
 }
 .cloud {
-  background-image: url("/weather/weather/cloud.png");
+  background-image: url("https://weatherinformeriremezov.herokuapp.com/weather/cloud.png");
 }
 .storm {
-  background-image: url("/weather/weather/storm.png");
+  background-image: url("https://weatherinformeriremezov.herokuapp.com/weather/storm.png");
 }
 @media (max-width: 992px) {
   .city {
